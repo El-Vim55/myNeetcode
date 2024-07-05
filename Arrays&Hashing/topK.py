@@ -16,8 +16,6 @@ def topKFrequent(nums: list[int], k: int) -> list[int]:
                 counter += 1
         except IndexError:
             pass
-    print(res)
-    [24,12,8,6]
 
     val = sorted(res.values())
     val = list(val)[-k:]
